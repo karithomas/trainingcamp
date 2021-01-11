@@ -12,12 +12,8 @@ include 'templates/h_close.php';
 <body>
     <h2>Contact Me</h2>
     <div class="container">
-  <div style="text-align:center">
-  </div>
-  <div class="row">
     </div>
     <div class="column">
-      <form action="/action_page.php">
         <label for="first_name">First Name</label>
         <input type="text" id="first_name" name="firstname" placeholder="First Name">
         <br>
@@ -31,12 +27,8 @@ include 'templates/h_close.php';
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Comments or feedback to make us better..." style="height:170px"></textarea>
         <br>
-
         <input type="submit" value="Submit">
-      </form>
     </div>
-  </div>
-</div>
 
 <?php include 'templates/aside.php'; ?>
 <?php include 'templates/f_open.php'; ?>
