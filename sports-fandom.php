@@ -24,7 +24,7 @@ include 'templates/h_close.php';
     </div>
     <div>
         <section>
-        <a href="https://www.washingtonfootball.com/" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/9ntby_LPHSMDgTOW7EAiM1a6vLF3vgf-ZiyD2LKANW6fC68-YtOztHY2uK7kQvaeKMCmxNb3oxfRkPFeTH6mLqQS5HbRwmlGwbdI2KFOK2bqxarfhb-p3faSamlUxA-e-YgV4io" width="100" height="100" alt="Washington Football Team"/></a>
+        <a href="https://www.washingtonfootball.com/" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/_6t4aAmw2c43zV_o8VFoZWIioNgZht9W8Py2tDW39gbpCjXr5vjcJQun0TdazTwMlJipQbS86WNPNwU9roQAxMyUs-Jgg3F4Wvse0cOwy7xOsc3lasXrNyxHleBP6kAFuCq_PZk" width="100" height="100" alt="Washington Football Team"/></a>
         <div>
         <h2><a href="https://www.washingtonfootball.com/" target="_blank">Washington Football Team</a></h2>
         <p class="sports_team__blurb">"The Washington Football team has been my favorite football team since I was very young.  My entire family has rooted for them for as long as I can remember, although some have switched their allegiances over the last few years because the team is never very good."</p>
