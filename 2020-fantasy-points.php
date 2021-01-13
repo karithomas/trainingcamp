@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 <?php 
 $title = '2020 Fantasy Points';
 include 'templates/h_open.php'; 
 include 'templates/h_close.php';
 ?>
-<body>
     <h1>2020 Fantasy Points</h1>
-    <table width="90%" border="1" cellpadding="2" cellspacing="0" summary="A playlist">
+    <table>
         <caption>
             My Top Fantasy Players of 2020
         </caption>

@@ -1,1 +1,0 @@
-../ in front of templates gets rid of .php in URL

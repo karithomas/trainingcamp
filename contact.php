@@ -1,34 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 <?php 
 $title = 'Contact';
 include 'templates/h_open.php'; 
 include 'templates/h_close.php';
 ?>
-<body>
     <h2>Contact Me</h2>
     <div class="container">
     </div>
+    <form>
     <div class="column">
-        <label for="first_name">First Name</label>
-        <input type="text" id="first_name" name="firstname" placeholder="First Name">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" placeholder="First Name">
         <br>
-        <label for="last_name">Last Name</label>
-        <input type="text" id="last_name" name="lastname" placeholder="Last Name">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Last Name">
         <br>
         <label for="e-mail">E-mail Address</label>
-        <input type="text" id="email" name="email" placeholder="Email Address">
+        <input type="text" id="e-mail" name="e-mail" placeholder="Email Address">
         <br>
-        </select>
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Comments or feedback to make us better..." style="height:170px"></textarea>
         <br>
-        <label for="Country">Country</label>
-        <br>
+        <p>Where are you located?</p>
         <input type="radio" id="usa" name="country" value="usa">
         <label for="usa">USA</label><br>
         <input type="radio" id="other" name="country" value="other">
@@ -67,9 +59,9 @@ include 'templates/h_close.php';
         </select>
         <br>
         <button type="submit" value="Submit">Submit</button>
-        <button type="cancel" value="Cancel">Cancel</button>
+        <button type="submit" value="Cancel">Cancel</button>
     </div>
-
+    </form>
 <?php include 'templates/aside.php'; ?>
 <?php include 'templates/f_open.php'; ?>
 <?php include 'templates/f_close.php'; ?>
