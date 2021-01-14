@@ -336,10 +336,3 @@ include 'templates/h_close.php';
                         <li><a href="https://www.nba.com/team/1610612763/grizzlies" target="_blank"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" width="100" height="85" alt="Memphis Grizzlies"/></a></li>
                         <li><a href="https://www.nba.com/team/1610612745/rockets" target="_blank"><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" width="100" height="85" alt="Houston Rockets"/></a></li>
                     </ul> -->
-
-
-<?php include 'templates/aside.php'; ?>
-<?php include 'templates/f_open.php'; ?>
-<?php include 'templates/f_close.php'; ?>
-</body>
-</html>
