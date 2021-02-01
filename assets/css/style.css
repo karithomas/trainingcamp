@@ -1,14 +1,44 @@
 body {
-    background-color: tan;
+    background-color: #042b69;
+    color: white;
   }
 
+.nav-container {
+    display:flex
+}
+
+.nav-container > li {
+    color: white;
+    flex-basis: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+@media all and (max-width: 400px) {  
+    .container > li {  
+      flex-basis: 100%;  
+    }  
+    .search {  
+      order: 1;  
+    }  
+}
+
 .title {
-    color: black;
+    color: #eddd2b;
     font-size: 3rem;
   }
 
 .subtitle {
-    color: black;
+    color: #eddd2b;
     font-size: 2rem;
 }
 
@@ -17,43 +47,90 @@ body {
     height: auto;
 }
 
-aside {
-    align-items: flex-start;
-    display: flex;
-    justify-content: flex-end;
-}
+/* @media only screen and (max-width: 600px) { */
 
-.bio {
-    border: 4px solid darkblue;
-    color: black;
+    aside {
+        align-items: left;
+        color: white;
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+
+p {
+    color: white;
     display: flex;
     font-size: 1.5rem;
 }
 
 .site-map {
-    border: 4px solid darkblue;
+    color: white;
+    list-style: none;
 }
 
-.social-media {
-    border: 4px solid darkblue;
+.social-icons {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
 .random-fact {
-    border: 4px solid darkblue;
 }
 
 .footer-container {
     align-items: center;
     display: flex;
     flex-basis: auto;
+    flex-direction: column;
     font-size: 1.5rem;
     justify-content: space-evenly;
 }
 
 .copyright {
     bottom:0;
+    color: white;
     font-size: 0.7em;
     line-height: 40px;
     position: relative;
     text-align: center;
 }
+
+/* Font Awesome */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Hover on social icons */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /*Instagram */
+  .fa-instagram {
+      background: #C13584;
+      color: white;
+  }
+
+  /*Youtube */
+  .fa-youtube {
+      background: red;
+      color: white;
+  }
+

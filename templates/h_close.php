@@ -6,7 +6,7 @@
     <h2 class="subtitle">FantasyPros Dev Trainee</h2>
 </header> 
 <nav>
-    <ul>
+    <ul class="nav-container">
         <li><a href="/">Home</a></li>
         <li><a href="/sports-fandom.php">Sports Fandom</a></li>
         <li><a href="/2020-fantasy-points.php">2020 Fantasy Points</a></li>
