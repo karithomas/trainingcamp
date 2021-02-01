@@ -23,15 +23,6 @@ a:visited {
     color: white;
 }
 
-@media all and (max-width: 400px) {  
-    .container > li {  
-      flex-basis: 100%;  
-    }  
-    .search {  
-      order: 1;  
-    }  
-}
-
 .title {
     color: #eddd2b;
     font-size: 3rem;
@@ -50,11 +41,10 @@ a:visited {
 /* @media only screen and (max-width: 600px) { */
 
     aside {
-        align-items: left;
         color: white;
         display: flex;
         font-size: 1.5rem;
-        justify-content: center;
+        position: absolute;
     }
 
 p {
