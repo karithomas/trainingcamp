@@ -1,4 +1,42 @@
-body {
+.container {
+    height: 90vh;
+    width: 90vw;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "left main right"
+                         "footer footer footer";
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+ }
+ .cell-1 {
+    background: deepskyblue;
+    grid-area: header;
+ }
+ .cell-2 {
+    background: orangered;
+    grid-area: left;
+ }
+ .cell-3 {
+    background: limegreen;
+    grid-area: main;
+ }
+ .cell-4 {
+    background: gold;
+    grid-area: right;
+ }
+ .cell-5 {
+    background: blueviolet;
+    grid-area: footer;
+ }
+ .cell {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 4rem;
+ }
+
+/* body {
     background-color: #042b69;
     color: white;
   }
@@ -38,14 +76,16 @@ a:visited {
     height: auto;
 }
 
-/* @media only screen and (max-width: 600px) { */
-
     aside {
-        color: white;
+        /* color: white;
         display: flex;
-        font-size: 1.5rem;
-        position: absolute;
+        font-size: 1.5rem; */
+    /* }
+@media only screen and (min-width: 600px) {
+    aside {
+        
     }
+}
 
 p {
     color: white;
@@ -59,13 +99,32 @@ p {
 }
 
 .social-icons {
+    border: 2px solid yellow;
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    /* height: 5rem; */
+    /* justify-content: space-evenly;
     list-style: none;
+} */
+
+/* .social-icons__link {
+    border: 2px solid red;
+    font-size: 3rem;
 }
 
-.random-fact {
+.social-icons__icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    width: 5rem;
+} */
+
+/* .random-fact {
 }
 
 .footer-container {
@@ -85,42 +144,27 @@ p {
     position: relative;
     text-align: center;
 }
-
-/* Font Awesome */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
   /* Hover on social icons */
-  .fa:hover {
+  /* .fa:hover {
     opacity: 0.7;
   }
   
   /* Facebook */
-  .fa-facebook {
+  /* .fa-facebook {
     background: #3B5998;
-    color: white;
-  }
+  } */
   
   /* Twitter */
-  .fa-twitter {
+  /* .fa-twitter {
     background: #55ACEE;
-    color: white;
-  }
+  } */
 
   /*Instagram */
-  .fa-instagram {
+  /* .fa-instagram {
       background: #C13584;
-      color: white;
-  }
+  } */
 
   /*Youtube */
-  .fa-youtube {
+  /* .fa-youtube {
       background: red;
-      color: white;
-  }
-
+  } */
