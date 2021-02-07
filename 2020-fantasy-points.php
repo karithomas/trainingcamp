@@ -3,8 +3,9 @@ $title = '2020 Fantasy Points';
 include 'templates/h_open.php'; 
 include 'templates/h_close.php';
 ?>
+<div class="cell cell-2">
     <h1>2020 Fantasy Points</h1>
-    <table>
+    <table id="top-players">
         <caption>
             My Top Fantasy Players of 2020
         </caption>
@@ -74,7 +75,7 @@ include 'templates/h_close.php';
           </tr>
         </tbody>
     </table>
-
+    </div>
 <?php include 'templates/aside.php'; ?>
 <?php include 'templates/f_open.php'; ?>
 <?php include 'templates/f_close.php'; ?>

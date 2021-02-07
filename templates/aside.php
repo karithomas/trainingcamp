@@ -1,5 +1,4 @@
-<div class="container">
-<aside class="cell cell-4">
+<aside class="cell cell-3">
     <h2>Contact Me</h2>
     <address>
         <dl>
@@ -10,4 +9,3 @@
         </dl>
     </address>
 </aside>
-</div>

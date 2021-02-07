@@ -3,9 +3,8 @@ $title = 'Contact';
 include 'templates/h_open.php'; 
 include 'templates/h_close.php';
 ?>
+<div class="cell cell-2">
     <h2>Contact Me</h2>
-    <div class="container">
-    </div>
     <form>
     <div class="column">
         <label for="first-name">First Name</label>
@@ -58,10 +57,10 @@ include 'templates/h_close.php';
             <option value="maserati">Maserati</option>
         </select>
         <br>
-        <button type="submit" value="Submit">Submit</button>
-        <button type="submit" value="Cancel">Cancel</button>
+        <input type="submit" value="Submit">
     </div>
     </form>
+</div>
 <?php include 'templates/aside.php'; ?>
 <?php include 'templates/f_open.php'; ?>
 <?php include 'templates/f_close.php'; ?>
