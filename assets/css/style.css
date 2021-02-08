@@ -26,7 +26,7 @@ body {
 }
 
 a {
-     color: white;
+    color: white;
 }
 
 a:link {
@@ -174,14 +174,42 @@ a:active {
     grid-column-gap: 4rem;
  }
 
- .cell-4 .cell {
-     background: #081d3f;
+ .site-map {
+    display: flex;
  }
+
+ .cell-5 ul {
+    background-color: #081d3f;
+    list-style: none;
+    overflow: hidden;
+}
+  
+.cell-5 li a {
+    display: flex;
+}
+
+.cell-5 li a:hover {
+    background-color: #f4f4f4;
+}
+
+.cell-7 ul {
+    background-color: #081d3f;
+    list-style: none;
+    overflow: hidden;
+}
+  
+.cell-7 li a {
+    display: flex;
+}
+
+.cell-7 li a:hover {
+    background-color: #f4f4f4;
+}
 
  .cell {
     color: white;
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
     padding: 4rem;
  }
 
@@ -198,7 +226,7 @@ input[type=text], select, textarea {
   }
 
 input[type=submit] {
-    background-color: #fcd41f;
+    background-color: #035fbd;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -207,7 +235,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #fcd41f;
+    background-color: #025993;
 }
 
 table {
@@ -229,14 +257,14 @@ table, th, td {
 }
   
 #top-players tr:hover {
-    background-color: #fcd41f;
+    background-color: darkgrey;
 }
   
 #top-players th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #fcd41f;
+    background-color: darkgrey;
     color: white;
 }
 
