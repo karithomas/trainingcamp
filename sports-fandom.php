@@ -3,7 +3,7 @@ $title = 'Sports Fandom';
 include 'templates/h_open.php'; 
 include 'templates/h_close.php';
 ?>
-<div class="cell cell-2">
+<div class="grid main-content">
     <h1>Sports Fandom</h1>
         <section>
         <h2><a href="https://www.atlantabraves.com/" target="_blank">Atlanta Braves</a></h2>

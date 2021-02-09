@@ -1,4 +1,4 @@
-<aside class="cell cell-3">
+<aside class="grid contact-me">
     <h2>Contact Me</h2>
     <address>
         <dl>

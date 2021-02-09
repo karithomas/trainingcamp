@@ -3,7 +3,7 @@ $title = 'Sports Structure';
 include 'templates/h_open.php'; 
 include 'templates/h_close.php';
 ?>
-<div class="cell cell-2">
+<div class="grid main-content">
     <h1>Sports Structure</h1>
 
     <ul>

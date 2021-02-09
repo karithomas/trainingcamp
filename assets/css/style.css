@@ -15,7 +15,7 @@ body {
     background-color: #f4f4f4;
 }
 
-.cell-1 {
+.top-nav {
     background: #081d3f;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     display: flex;
@@ -25,58 +25,57 @@ body {
     z-index: 3;
 }
 
-a {
+.link {
     color: white;
+    display: flex;
 }
-
-a:link {
+  
+.link:visited {
     color: white;
 }
   
-a:visited {
-    color: white;
-}
-  
-a:hover {
+.link:hover,
+.link:focus {
+    background-color: #fafafa;
     color: #081d3f;
 }
 
-a:active {
+.link:active {
     color: white;
 }
 
-.cell-1 ul {
+.top-nav ul {
     background-color: #081d3f;
     list-style: none;
     overflow: hidden;
 }
   
-.cell-1 li a {
+.top-nav li a {
     border-right: 1px solid #f4f4f4;
     display: block;
     text-decoration: none;
 }
   
-.cell-1 li a:hover,
-.cell-1 .menu-btn:hover {
+.top-nav li a:hover,
+.top-nav .menu-btn:hover {
     background-color: #f4f4f4;
 }
   
-.cell-1 .logo {
+.top-nav .logo {
     display: block;
-    float: left;
+    /* float: left; */
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
 }
   
-.cell-1 .menu {
+.top-nav .menu {
     clear: both;
     max-height: 0;
     transition: max-height 0.2s ease-out;
 }
 
-.cell-1 .menu-icon {
+.top-nav .menu-icon {
     cursor: pointer;
     display: inline-block;
     /* float: right; */
@@ -85,7 +84,7 @@ a:active {
     user-select: none;
 }
   
-.cell-1 .menu-icon .navicon {
+.top-nav .menu-icon .navicon {
     background: white;
     display: block;
     height: 2px;
@@ -94,8 +93,8 @@ a:active {
     width: 18px;
 }
   
-.cell-1 .menu-icon .navicon:before,
-.cell-1 .menu-icon .navicon:after {
+.top-nav .menu-icon .navicon:before,
+.top-nav .menu-icon .navicon:after {
     background: white;
     content: "";
     display: block;
@@ -105,68 +104,68 @@ a:active {
     width: 100%;
 }
   
-.cell-1 .menu-icon .navicon:before {
+.top-nav .menu-icon .navicon:before {
     top: 5px;
 }
   
-.cell-1 .menu-icon .navicon:after {
+.top-nav .menu-icon .navicon:after {
     top: -5px;
 }
 
-.cell-1 .menu-btn {
+.top-nav .menu-btn {
     display: none;
 }
   
-.cell-1 .menu-btn:checked ~ .menu {
+.top-nav .menu-btn:checked ~ .menu {
     max-height: 240px;
 }
   
-.cell-1 .menu-btn:checked ~ .menu-icon .navicon {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent;
 }
   
-.cell-1 .menu-btn:checked ~ .menu-icon .navicon:before {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
 }
   
-.cell-1 .menu-btn:checked ~ .menu-icon .navicon:after {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
 }
   
-.cell-1 .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.cell-1 .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
 
 @media (min-width: 48em) {
-    .cell-1 li {
-      float: left;
+    .top-nav li {
+      /* float: left; */
     }
-    .cell-1 li a {
+    .top-nav li a {
       padding: 20px 30px;
     }
-    .cell-1 .menu {
+    .top-nav .menu {
       clear: none;
-      float: right;
+      /* float: right; */
       max-height: none;
     }
-    .cell-1 .menu-icon {
+    .top-nav .menu-icon {
       display: none;
     }
 }
 
-.cell-2 {
+.main-content {
     background: #081d3f;
     grid-area: main;
  }
 
- .cell-3 {
+ .contact-me {
     background: #fcd41f;
     grid-area: right;
     justify-items: center;
  }
 
- .cell-4 {
+ .footer {
     background: #081d3f;
     display:grid;
     grid-area: footer;
@@ -178,35 +177,19 @@ a:active {
     display: flex;
  }
 
- .cell-5 ul {
+ .site-map ul {
     background-color: #081d3f;
     list-style: none;
     overflow: hidden;
 }
-  
-.cell-5 li a {
-    display: flex;
-}
 
-.cell-5 li a:hover {
-    background-color: #f4f4f4;
-}
-
-.cell-7 ul {
+.random-fact ul {
     background-color: #081d3f;
     list-style: none;
     overflow: hidden;
 }
-  
-.cell-7 li a {
-    display: flex;
-}
 
-.cell-7 li a:hover {
-    background-color: #f4f4f4;
-}
-
- .cell {
+ .grid {
     color: white;
     font-size: 1.5em;
     text-align: left;
@@ -255,8 +238,13 @@ table, th, td {
 #top-players tr:nth-child(even){
     background-color: #0377b1;
 }
+
+#top-players tr:nth-child(odd){
+    background-color: white;
+}
   
-#top-players tr:hover {
+#top-players tr:hover,
+tr:focus {
     background-color: darkgrey;
 }
   

@@ -3,7 +3,7 @@ $title = 'Contact';
 include 'templates/h_open.php'; 
 include 'templates/h_close.php';
 ?>
-<div class="cell cell-2">
+<div class="grid main-content">
     <h2>Contact Me</h2>
     <form>
     <div class="column">

@@ -1,7 +1,7 @@
 </head>
 <body>
     <div class="main-container">
-        <header class="cell cell-1">
+        <header class="grid top-nav">
             <span class="title">Kari Thomas<br>FantasyPros Dev Trainee</span>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>

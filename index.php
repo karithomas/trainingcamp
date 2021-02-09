@@ -4,7 +4,7 @@ include 'templates/h_open.php';
 include 'templates/h_close.php';
 ?>
 
-<main class="cell cell-2">
+<main class="grid main-content">
     <h1>About Me</h1>
     <img src="assets/images/billboard.jpg" alt="Stormy Beach" class="responsive">
     <p>My name is Kari Thomas and I'm from a small town called Powhatan, VA.  My family moved there when I was 5 years old and I graduated in 2007 from Powhatan High School.    
