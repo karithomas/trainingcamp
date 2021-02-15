@@ -16,12 +16,12 @@ body {
     padding: 0;
 }
 
-li, a {
+a {
     font-weight: 500;
     font-size: 16px;
     color: white;
     text-decoration: none;
-}
+} 
 
 .top-nav {
     align-items: center;
@@ -31,13 +31,14 @@ li, a {
     grid-area: header;
     justify-content: flex-end;
     padding: 30px 10%;
+    text-transform: uppercase;
 }
 
 .logo {
     cursor: pointer;
     margin-right: auto;
-    height: 7rem;
-    width: 24rem;
+    height: auto;
+    width: auto;
 }
 
 .nav__Links {
@@ -58,7 +59,6 @@ li, a {
     background-color: #fafafa;
     color: #081d3f;
     display: inline-block;
-    padding: 1rem;
     text-decoration: none;
 }
 
@@ -75,6 +75,7 @@ li, a {
 .link:focus {
     background-color: #fafafa;
     color: #081d3f;
+    cursor: pointer;
 }
 
 .logo {
@@ -86,51 +87,87 @@ li, a {
 }
 
 .main-content {
-    background: #081d3f;
     grid-area: main;
  }
 
- .contact-me {
-    background: #fcd41f;
+.contact-me {
+    background-color: #fcd41f;
+    color: #081d3f;
+    display: flex;
     grid-area: right;
-    justify-items: center;
+ }
+
+ .phone {
+     color: #081d3f;
+ }
+
+ .e-mail {
+    color: #081d3f;
  }
 
  .footer {
     background: #081d3f;
     display:grid;
     grid-area: footer;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 4rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
  }
 
  .site-map {
+    align-items: center;
     display: flex;
+    grid-row: 2;
+    justify-content: space-evenly;
  }
 
  .site-map ul {
+    align-items: center;
     background-color: #081d3f;
+    display: flex;
+    justify-content: space-evenly;
     list-style: none;
     overflow: hidden;
 }
 
-.random-fact ul {
+.site-map li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.site-map a:hover,
+.site-map a:focus {
+    color: #38bafc;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.random-fact {
+    align-items:center;
     background-color: #081d3f;
+    color: white;
     display: flex;
+    grid-row: 3;
+    justify-content: center;
     list-style: none;
     overflow: hidden;
+}
+
+.random-fact a:hover,
+.random-fact a:focus {
+    color: #38bafc;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .copyright {
     align-items: center;
+    color: white;
     display: flex;
-    grid-column: 2 / 3;
-    grid-row: 3 / 2;
+    grid-row: 4;
     justify-content: center;
 }
 
  .grid {
-    color: white;
     font-size: 1.5em;
     text-align: left;
     padding: 4rem;
@@ -169,18 +206,9 @@ table, th, td {
     border: 1px solid white;
 }
 
-
 #top-players td, #top-players th {
     border: 1px solid #ddd;
     padding: 8px;
-}
-  
-#top-players tr:nth-child(even){
-    background-color: #0377b1;
-}
-
-#top-players tr:nth-child(odd){
-    background-color: white;
 }
   
 #top-players tr:hover,
@@ -192,15 +220,15 @@ tr:focus {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: darkgrey;
-    color: white;
+    background-color: #87cefa;
 }
 
 .social-icons {
     align-items: center;
     display: flex;
+    grid-row: 1;
     height: 5rem;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
 }
 
@@ -219,8 +247,9 @@ tr:focus {
     width: 5rem;
 } 
 
-.fa:hover {
-    color: #0377b1;
+.fa:hover,
+.fa:focus {
+    color: #38bafc;
 }
   
 .fa-facebook {
@@ -237,6 +266,46 @@ tr:focus {
 
 .fa-youtube {
     color: white;
+}
+
+.sport-fandom {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-link {
+    color: #081d3f; 
+    font-size: large;
+}
+
+.braves {
+    border: 2px solid #081d3f;
+    border-radius: 5%;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.washington {
+    border: 2px solid #081d3f;
+    border-radius: 5%;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.blues {
+    border: 2px solid #081d3f;
+    border-radius: 5%;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.sport-structure {
+    color: #081d3f;
+    font-size: 12px;
 }
 
 /* body {

@@ -3,7 +3,7 @@ $title = '2020 Fantasy Points';
 include 'templates/h_open.php'; 
 include 'templates/h_close.php';
 ?>
-<div class="cell main-content">
+<div class="grid main-content">
     <h1>2020 Fantasy Points</h1>
     <table id="top-players">
         <caption>
